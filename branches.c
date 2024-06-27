@@ -37,7 +37,7 @@ int main() {
   //
 
   int inputNum;
-
+  printf("Enter number >>> \n");
   scanf("%d", &inputNum);
 
   if (inputNum == 0)

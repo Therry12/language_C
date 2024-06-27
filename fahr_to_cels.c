@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
   lower = 0;
   upper = 300;
   fahr = lower;
-
+  //TODO:Rewrite while to for
   while (fahr <= upper) {
     celcius = (5.0 / 9.0) * (fahr - 32.0);
     printf("%.1f\t%6.0f\n", celcius, fahr);

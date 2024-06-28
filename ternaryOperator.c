@@ -20,7 +20,7 @@ int main() {
   max = (num1 > num2) ? num1 : num2; // Brackets for better readability
   min = (num1 < num2) ? num1 : num2; // Brackets for better readability
 
-  printf("Number %.2f bigger on %.2f\n", max, max - min);
+  printf("The number %.2f  is %.2f more\n", max, max - min);
 
   //
   //---------------------Ternary operator Solution = return module of num--

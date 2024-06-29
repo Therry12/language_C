@@ -43,10 +43,15 @@ int main() {
   switch (inputChar) {
   case 'a':
   case 'A':
-    printf("Find letter %d\n", inputChar);
+    printf("Find letter A\n");
     return 0;
-  default:
-    printf("Error, input symbol!\n");
+  case 'b':
+  case 'B':
+    printf("Find letter B\n");
+    return 0;
+  defult:
+    printf("Error, input correct symbol!\n");
+    // NOTE: Break or return not needed because default is the last case
   }
   return 0;
 }

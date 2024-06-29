@@ -50,7 +50,7 @@ int main() {
     printf("Num %d is three-digit\n", inputNum);
   else {
     printf("Error! Enter valid number!\n");
-    return 1;
+    return 0;
   }
 
   return 0;

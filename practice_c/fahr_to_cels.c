@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
-  printf("Fahrenheit to celcius!\n");
+int main(void) {
+  
   float fahr, celcius;
   int lower, upper, step;
 
@@ -9,9 +9,11 @@ int main(int argc, char *argv[]) {
   lower = 0;
   upper = 300;
   fahr = lower;
-  //TODO:Rewrite while to for
+
+  printf("Fahrenheit to celcius!\n");
+  //@TODO:Rewrite while to for
   while (fahr <= upper) {
-    celcius = (5.0 / 9.0) * (fahr - 32.0);
+    celcius = (5.0 / 9.0) * (fahr j- 32.0);
     printf("%.1f\t%6.0f\n", celcius, fahr);
     fahr += step;
   }
